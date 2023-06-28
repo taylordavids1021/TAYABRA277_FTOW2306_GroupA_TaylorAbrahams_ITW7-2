@@ -1,9 +1,9 @@
 /* ---------------------------------------- CSS STYLE SHEET ----------------------------------------*/
 /* ---------------------------------------- BODY ---------------------------------------- */
-body {
-    background-color: rgb(216, 248, 255);
+html, body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
+    height: 100%;
 }
 /*---------------------------------------- HEADER ----------------------------------------*/
 h1 {
@@ -16,10 +16,23 @@ header::after {
     clear: both;
     display: table;
 }
+/* The hero image */
+.hero-banner {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/TAYABRA277_FTOW2306_GroupA_TaylorAbrahams_ITW7-2/img/flower1.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 header {
     color: white;
-    background-color: rgb(15 30 61);
-    padding: 1rem;
+    /*background-color: rgb(15 30 61);/*/
+    padding: 5rem;
+    margin: auto;
 }
 header p {
     font-size: 2rem;
@@ -44,12 +57,12 @@ header p {
     border-width: 0.3rem; 
     border-color: white;
     border-radius: 100%;
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 30rem;
     display: block;
     margin: 0;
     float: left;
-    margin-left: 4rem;
+    /*margin-left: 4rem;*/
 }
 /* ---------------------------------------- ASIDE ----------------------------------------*/
 
