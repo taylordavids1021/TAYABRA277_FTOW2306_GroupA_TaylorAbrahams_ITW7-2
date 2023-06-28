@@ -82,7 +82,7 @@ aside li {
 }
 aside li:hover {
     border-style: none;
-    background-color: rgb(138 139 139 / 80%);
+    background-color: rgb(55 69 109);
 }
 aside a {
     /*padding-right: 90px;*/
