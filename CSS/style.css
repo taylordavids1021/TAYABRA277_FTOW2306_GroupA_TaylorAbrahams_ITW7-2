@@ -4,6 +4,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
     height: 100%;
+    /*background-color: rgb(216, 248, 255);*/
 }
 /*---------------------------------------- HEADER ----------------------------------------*/
 h1 {
@@ -149,6 +150,7 @@ article {
     margin-bottom: 2rem;
 }
 /* ---------------------------------------- FORM STYLE ------------------------------------------------- */
+
 form {
     font-size: 1.1rem;
 }
